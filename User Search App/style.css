@@ -1,0 +1,228 @@
+/* global page styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* the stylings */
+
+.container {
+    width: 360px;
+    height: 480px;
+
+    background-color: #182137;
+    display: block;
+
+    margin: auto;
+    padding: auto;
+
+    margin-top: 2%;
+}
+
+/* the first card item */
+
+.first_item {
+    display: flex;
+    flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    padding-top: 15%;
+}
+.light_container {
+    display: flex;
+    flex-direction: row;
+}
+.first_item .light {
+    font-size: 0.4em;
+    letter-spacing: 2px;
+    margin-top: 7px;
+}
+.light_container .material-icons {
+    font-size: 0.5em;
+    padding-left: 5px;
+}
+
+/* the search container */
+
+.search_container {
+    display: flex;
+    flex-direction: row;
+    display: block;
+}
+#search_box {
+    font-size: 0.em;
+    color: #fff;
+    padding: 10px;
+
+    width: 70%;
+    height: 2.4em;
+    background-color: #2f3d5f;
+
+    display: block;
+    margin: auto;
+    padding: auto;
+
+    margin-top: 1.2em;
+    border-radius: 8px;
+
+    outline: none;
+    border: 0;
+}
+
+/* style the placeholder to give white text color */
+
+#search_box::placeholder{
+    color: #fff;
+    font-size: 0.6em;
+    padding-left: 35px;
+}
+
+/* stylings for the search icon inside the search box */
+#search_icon {
+ color: #8a2be2;
+ margin-top: 10px;
+
+ position: absolute;
+
+ margin-left: 70px;
+ font-size: 0.8em;
+}
+#search_box {
+    padding-left: 32px;
+    padding-right: 55px;
+}
+/* stylings for the search btn inside the search box */
+
+#search_btn {
+    background-color: #8a2be2;
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+
+    width: 4.5em;
+    height: 2em;
+    font-size: 0.8em;
+
+    font-size: 0.7em;
+    margin-top: -28px;
+    margin-left: 251px;
+}
+
+/* stylings for profile details card */
+
+.card_container {
+    background-color: #2f3d5f;
+    display: block;
+
+    width: 245px;
+    height: 240px;
+
+    margin: auto; 
+    padding: auto;
+    margin-top: 10px;
+
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+     }
+
+.card_container div {
+    display: flex;
+    margin-top: 10px;
+    
+}
+.card_container img {
+    width: 55px;
+    height:55px;
+
+    border-radius: 50%;
+}
+.user_details {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.5em;
+    margin-left: 2em;
+}
+.card_container .profile_name {
+    font-size: 2em;
+}
+.card_container .user_name {
+    color: #8a2be2;
+    padding: 5px;
+}
+
+/* user description */
+
+.card_container .user_description p {
+
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 0.6em;
+}
+
+
+/* user stats */
+
+.user_stats {
+    background-color: #182137;
+    display: flex;
+    border-radius: 5449-px;
+
+    justify-content: space-evenly;
+    padding-bottom: 4px;
+    font-size: 0.4em;
+}
+.user_stats span {
+    font-size: 1.9em;
+}
+/* stylings for user contact */
+
+.user_contact {
+    font-size: 0.5em;
+    display: flex;
+
+    padding-top: 0px;
+
+    justify-content: space-evenly;
+}
+.user_contact .twitter p {
+    color: #a7a7ad;
+    margin-left: 23px;
+}
+.user_contact img {
+    width: 8px;
+    height: 10px;
+    border-radius: 0px;
+}
+.user_contact #blog {
+    margin-left: -20px;
+}
+
+                           
+
+
+
+
+
+
+
+/* stylings for mobile view */
+
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+        height: fit-content;
+    }
+}

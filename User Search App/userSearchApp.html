@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Search App</title>
+    <script src="http://kit.fontawesome.com/793ced1199.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    
+<!-- 
+
+//ICONS USED NIN THIS PROJECT//
+
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-map-marker" aria-hidden="true"></i>
+    <i class="fa fa-github" aria-hidden="true"></i>
+    <i class="fa fa-link" aria-hidden="true"></i>
+    <i class="fa fa-search" aria-hidden="true"></i>
+    <i class="fa fa-sun-o" aria-hidden="true"></i>
+    <span class="material-icons">light_mode</span>
+
+
+
+
+
+
+ -->
+
+
+ <!-- global container used to wrap all the card contents -->
+
+ <section class="container">
+     <div class="first_item">
+         <p>devfinder</p>
+         <div class="light_container">
+             <p class="light">LIGHT</p>
+             <p class="icon"><span class="material-icons">
+                light_mode
+                </span></p>
+         </div>
+     </div>
+
+     <div class="search_container">
+
+
+        
+     
+        <div class="search">
+
+            <p>
+
+                        <!-- the search icon  -->
+
+                <i id="search_icon" class="fa fa-search" aria-hidden="true"></i>
+            
+                       <!-- the search box  -->
+
+                <input type="search" name="search" 
+            id="search_box" 
+            placeholder="Search GITHUB username...">
+
+            </p>
+
+             <!-- the search button -->
+
+         <button id="search_btn" type="submit"><a href="#">Search</a></button>
+        </p>
+        </div>
+        
+        
+    </div>
+
+    <!-- the inner card for profile details -->
+
+    <div class="card_container">
+        <div>
+            <img src="/images/GitHub Logo.png" alt="GitHub Logo,Octocat Profile">
+        
+            <div class="user_details">
+                <p class="profile_name">The &nbsp;Octocat</p>
+                <p class="user_name">@Octocat</p>
+                <p class="date_join">Joined &nbsp; 25 &nbsp; Jan &nbsp; 2011</p>
+        </div>
+        </div>
+
+                <!-- user description -->
+                <div class="user_description">
+                    <p>
+                        Lorem ipsum dolor sit amet sit dolor
+                        Lorem ipsum dolor sit amet 
+                        Lorem ipsum dolor sit amet 
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+
+                <!-- user stats -->
+
+                <div class="user_stats">
+                    <div>
+                        <p>Repos <br><br> <span>8</span></p> 
+                    </div>
+                    <div>
+                        <p>Followers <br><br> <span>3938</span></p>
+
+                    </div>
+                    <div>
+                        <p>Following <br><br> <span>9</span></p>
+                    </div>
+                </div>
+          <!-- user contact -->
+                <div class="user_contact">
+                    <div>
+                        <p>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            &nbsp; San &nbsp;Francisco
+                        </p>
+                    </div>
+                    <div class="twitter">
+                        <p>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            &nbsp; Not &nbsp; Available
+                        </p>
+                    </div>
+                </div>
+
+                <div class="user_contact">
+                    <div>
+                        <p>
+                            <i id="blog" class= "fa fa-link" aria-hidden="true"></i>
+                            &nbsp; https://github.blog
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <img src="/images/octicon.png" alt="Octicon">
+                            &nbsp; @github
+                        </p>
+                    </div>
+                </div>
+    </div>
+ </section>
+
+
+</body>
+</html>
